@@ -1,0 +1,11 @@
+import { HttpStatus } from '@nestjs/common';
+
+export const ERROR_STATUS: Readonly<Record<string, HttpStatus>> = {
+  EMAIL_ALREADY_REGISTERED: HttpStatus.CONFLICT,
+  USER_NOT_FOUND: HttpStatus.NOT_FOUND,
+  INVALID_CREDENTIALS: HttpStatus.UNAUTHORIZED,
+  EMAIL_NOT_CONFIRMED: HttpStatus.FORBIDDEN,
+  INVALID_OR_EXPIRED_TOKEN: HttpStatus.BAD_REQUEST,
+  INVALID_REFRESH_TOKEN: HttpStatus.UNAUTHORIZED,
+  REFRESH_TOKEN_REUSED: HttpStatus.UNAUTHORIZED,
+};
