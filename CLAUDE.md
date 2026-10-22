@@ -208,6 +208,11 @@ export class EmailAlreadyRegisteredError extends DomainError {
 5. Registrar todo en `<modulo>.module.ts` y exportar solo lo necesario en `index.ts`.
 6. Ejecutar `pnpm lint && pnpm test` antes de terminar.
 
+## Git
+
+- Todos los commits y PRs son autoría exclusiva del usuario. **Nunca** añadir `Co-Authored-By: Claude`, "Generated with Claude Code" ni ninguna otra atribución a IA en mensajes de commit, descripciones de PR o comentarios.
+- No cambiar `user.name` / `user.email` de git ni usar `--author`.
+
 ## Qué no hacer
 
 - Importar Drizzle fuera de `infrastructure`.
