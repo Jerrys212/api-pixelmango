@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "skills": {
+    "clean-architecture": {
+      "source": "giuseppe-trisciuoglio/developer-kit",
+      "sourceType": "github",
+      "skillPath": "plugins/developer-kit-java/skills/clean-architecture/SKILL.md",
+      "computedHash": "d1c91ecd9faf898e42437837956f2536540dab3aca053cb1114b7cfa15ee5bab"
+    },
+    "nestjs": {
+      "source": "giuseppe-trisciuoglio/developer-kit",
+      "sourceType": "github",
+      "skillPath": "plugins/developer-kit-typescript/skills/nestjs/SKILL.md",
+      "computedHash": "c9771be6c8e742c4451a127005cf45b60c02c0e06f1e61f72b5c0db1dfb21595"
+    }
+  }
+}
