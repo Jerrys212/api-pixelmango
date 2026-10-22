@@ -19,7 +19,9 @@ const PG_POOL = Symbol('PG_POOL');
       provide: PG_POOL,
       inject: [ConfigService],
       useFactory: (config: ConfigService<Env, true>) =>
-        new Pool({ connectionString: config.get('DATABASE_URL', { infer: true }) }),
+        new Pool({
+          connectionString: config.get('DATABASE_URL', { infer: true }),
+        }),
     },
     {
       provide: DRIZZLE,

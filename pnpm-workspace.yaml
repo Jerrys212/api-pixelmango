@@ -1,2 +1,7 @@
 allowBuilds:
   esbuild: true
+  argon2: true
+  '@scarf/scarf': false
+  cpu-features: false
+  protobufjs: false
+  ssh2: false
